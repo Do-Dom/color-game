@@ -1,5 +1,5 @@
 body{
-    background-color : black;
+    background-color : #191919;
     margin : 0px;
     text-transform: uppercase;
 }
@@ -65,7 +65,20 @@ body{
     transition: visibility 0s 0.2s, opacity 0.2s linear;
 }
 
+.notUse {
+    display: none;
+}
+
 .btnMouseOver {
     color : white;
     background-color: steelblue;
+}
+
+button{
+    background: none;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size : 15px;
+    outline: none;
 }
