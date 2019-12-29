@@ -70,20 +70,6 @@ function setMode(isEasy)
 
 function onClickModeBtn(event)
 {
-    modeBtns.forEach(btn => {
-       
-        if(btn === event.target)
-        {
-            btn.classList.add("selected");
-            btn.classList.add("btnMouseOver");
-        }
-        else
-        {
-            btn.classList.remove("btnMouseOver");
-            btn.classList.remove("selected");
-        }  
-    });
-
     if(event.target.textContent === "easy")
     {
         setMode(true);
